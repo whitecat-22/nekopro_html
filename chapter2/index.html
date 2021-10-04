@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="discription" content="ねこプロ ― 日本初のネコのように学ぶプログラミング学習コミュニティ ―">
+    <title>ねこプロ</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="content-header">
+            <h1>ねこプロ</h1>
+            <p>
+                日本初のネコのように学ぶプログラミング学習コミュニティ
+            </p>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="content-body">
+                <h2>ねこプロ入会お申込み</h2>
+
+                <img src="static/image/image01.jpeg" alt="1.Progateで『知る』">
+
+                <div class="table">
+                    <div class="table-cource">
+                        <table border="1">
+                            <tr>
+                                <th>プラン</th>
+                                <th>料金</th>
+                                <th>割引</th>
+                            </tr>
+                            <tr>
+                                <td>のんびりプラン</td>
+                                <td>980円</td>
+                                <td rowspan="2">学生は半額</td>
+                            </tr>
+                            <tr>
+                                <td>わくわくプラン</td>
+                                <td>2000円</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+
+                <div class="form">
+                    <form action="example.php" method="post" name="content-form">
+                        <br>
+                            プラン選択：
+                            <select name="plan-name">
+                                <option value="のんびりプラン">のんびりプラン</option>
+                                <option value="わくわくプラン">わくわくプラン</option>
+                            </select>
+
+                        <br>
+
+                            名前　　　：
+                            <!--初期表示は placeholdlerで指定する-->
+                            <input type="text" placeholder="名字 名前">
+
+                            <input type="radio" name="gender" value="男">男
+                            <input type="radio" name="gender" value="女" checked>女
+                            <!-- <input type="radio" name="gender" value="その他">その他 -->
+
+                        <br>
+
+                            血液型　　：
+                            <!--pulldown ねこ型／くわ型／やま型／がた型／不明--><!--初期選択状態は selected を指定-->
+                            <select name="bloodtype">
+                                <option value="ねこ型">ねこ型</option>
+                                <option value="くわ型">くわ型</option>
+                                <option value="やま型">やま型</option>
+                                <option value="がた型">がた型</option>
+                                <option value="不明">不明</option>
+                            </select>
+
+                        <br>
+
+                            得意な言語：
+                            <input type="checkbox" name="language" value="Java" id="Java"><label for="java">Java</label>
+                            <input type="checkbox" name="language" value="JavaScript" id="JavaScript"><label for="JavaScript">JavaScript</label>
+                            <input type="checkbox" name="language" value="Python"id ="Python"><label for="Python">Python</label>
+                            <input type="checkbox" name="language" value="C" id="C"><label for="C">C</label>
+                            <input type="checkbox" name="language" value="Ruby" id="Ruby"><label for="Ruby">Ruby</label>
+                            <input type="checkbox" name="language" value="PHP" id="PHP"><label for="PHP">PHP</label>
+                            <input type="checkbox" name="language" value="Go" id="Go"><label for="Go">Go</label>
+                            <!-- <input type="checkbox" name="language" value="その他" id="その他">
+                            <label for="その他">その他</label> -->
+                        </p>
+
+                        <p>
+                            コメント
+                        </p>
+                        <p>
+                            <!--初期表示はplaceholderで指定する-->
+                            <textarea name="comment" rows="8" cols="30"></textarea>
+                        </p>
+
+                        <p>
+                            <input type="submit" value="申し込む">
+                        </p>
+
+                        <p>
+                            <a href="guideline.html">ガイドライン</a> <!--別タブ表示は target="_blank" を指定する-->
+                        </p>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="content-footer">
+            <p>
+                Copyright 2021 nekopuro
+            </p>
+        </div>
+    </fotter>
+
+</body>
+</html>
