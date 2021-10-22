@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    background-clor: #fff8dc;
+}
+h1 {
+    color : #d2691e;
+    font-size: 36px;
+    font-family: "ヒラギノ丸ゴ Pro W4", "Hiragino Maru Gothic Pro", sans-serif;
+    font-weight: bold;
+    text-align: left;
+}
+.content-body {
+    width: 500px;
+    align-content: center;
+}
+h2 {
+    color : #666666;
+    font-size: 24px;
+    font-family: "ヒラギノ丸ゴ Pro W4", "Hiragino Maru Gothic Pro", sans-serif;
+    font-weight: bold;
+    text-align: left;
+}
+p {
+    color : #666666;
+    font-size : 16px;
+    font-family: "ヒラギノ丸ゴ Pro W4", "Hiragino Maru Gothic Pro", sans-serif;
+    text-align: justify;
+}
+form {
+    color : #666666;
+    font-size : 16px;
+    font-family: "ヒラギノ丸ゴ Pro W4", "Hiragino Maru Gothic Pro", sans-serif;
+    font-weight: bolder;
+}
